@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
+
+*{
+    margin: 0;
+    background-color: #d0dbdbe5;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav {
+background-color: #c4cad0;
+width: 100%;
+position: sticky;
+top: 0px;
+
+
+}
+
+
+.logo {
+    height: auto;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: ridge;
+    border-color: #c6d6e2;
+    padding-left: 5px;
+    padding-top: 2px;
+     
+}
+
+.nav-links {
+    display: flex;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
+    
+    
+}
+
+.nav-link{
+    display: block;
+    list-style: none;
+    text-decoration:none;
+
+}
+
+
+#main {
+    padding-left: 5%;
+}
+
+
+
+.footer {
+    background-color: #2d72b8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:static;
+    margin-top: 100%;
+}
+/*index*/
+
+.encabezado-main{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-main {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;  
+    position: absolute;  
+    z-index: -1;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    color: #786AC2;
+    font-size: 172px;
+    font-weight: bold;
+    font-family: JacquardaBastard;
+    font-style: italic;
+
+}
+
+.video {
+   height: 500px;
+    width: 100%;
+   object-fit: fill;
+}
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-kit{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+gap: 2px;
+  
+}
+.img-inicio {
+    height: 200px;
+    width: 200px;
+}
+
+.tattoo-pain-map{
+    height: 500px;
+    width: auto;
+    position: relative;
+border-radius: 30px;
+    
+}
+
+
+
+.kit {
+    height: 422px;
+    width: auto;
+    border-radius: 20px;    
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    outline: #5e3485;
+    margin: auto;
+    padding-left: 25%;
+    row-gap: 2px;
+    column-gap: normal;
+    
+}
+
+.item-galeria-1 {
+grid-column: 1/2;
+grid-row: 1/3;
+}
+
+.item-galeria-2 {
+    grid-column: 2/3;
+    grid-row: 1/2; 
+}
+
+.item-galeria-3 {
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.item-galeria-4 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.item-galeria-5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.item-galeria-6 {
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+
+.item-galeria-7 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+
+.item-galeria-8 {
+    grid-column: 3/5;
+    grid-row: 5/7;
+}
+
+.item-galeria-9 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.item-galeria-10 {
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+.item-galeria-11 {
+    grid-column: 1/2;
+    grid-row: 5/7;
+}
+
+.item-galeria-12 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+.item-galeria-13 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+
+.item-galeria-14 {
+    grid-column: 3/5;
+    grid-row: 5/7;
+}
+
+/*diseños galeria*/
+.design-1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-3{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+.design-4{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-5{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-6{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-7{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-8{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-9{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-10{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-11{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-12{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-13{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.design-14{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/*portfolio*/
+.encabezado-p {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada-p {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;  
+    position: absolute;  
+    z-index: -1;
+}
+
+.portfolio {
+    text-align: center;
+    justify-content: center;
+    color: #786AC2;
+    font-size: 172px;
+    font-weight: bold;
+    font-family: JacquardaBastarda;
+    font-style: italic;
+}
+
+.grid-container-port {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px 300px;
+    row-gap: 2px;
+    column-gap: normal;
+    padding-left: 10%;
+    
+  
+}
+
+.grid-item-port-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+.grid-item-port-2 {
+    grid-column:2/3 ;
+    grid-row: 1/2;
+}
+
+.grid-item-port-3 {
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.grid-item-port-4 {
+    grid-column:1/3  ;
+    grid-row: 2/4;
+}
+
+.grid-item-port-5 {
+    grid-column: 1/2 ;
+    grid-row: 4/5;
+}
+
+.grid-item-port-6 {
+    grid-column: 2/3 ;
+    grid-row: 4/5;
+}
+
+.grid-item-port-7 {
+    grid-column: 3/5 ;
+    grid-row: 3/5;
+}
+/*imagenes portfolio*/
+.img-inicio-1{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  
+}
+.img-inicio-2{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.img-inicio-3{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+.img-inicio-4{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+.img-inicio-5{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+.img-inicio-6{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+.img-inicio-7{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+/*contacto*/
+.encabezado-contact{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.portada-c {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;  
+    position: absolute; 
+    z-index: -1; 
+
+}
+.contact{
+    text-align: center;
+    justify-content: center;
+    color: #786AC2;
+    font-size: 172px;
+    font-weight: bold;
+    font-family: JacquardaBastarda;
+    font-style: italic;
+}
+
+
+/**formulario**/
+
+.form{
+background-color: #5e3485;
+width: 600px;
+height: auto;
+margin: auto;  
+padding: 2px;
+border-radius: 15px ;
+}
+
+.form-grupo{
+background-color:#5e3485;
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin: 10px 10px;
+}
+
+.form-label{
+background-color: #5e3485;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+padding: 10px 5px
+}
+
+.form-input{
+width: 95%;
+background-color: transparent;
+border: 1px white solid;
+padding: 10px 5px;
+border-radius: 5px;
+transition: 1.5s;
+}
+
+.form-input::focus{
+    border: 2px solid white;
+    outline: none;
+}
+.form-input::placeholder{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.form-textarea{
+background-color: transparent;
+border: 1px solid white;
+}
+.form-textarea::placeholder{
+    color:white
+}
+
+.boton-form{
+color: rgb(11, 24, 36);
+width: 100%;
+}
+
+.contact-end{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+/*media query*/
+@media(max-width: 1280px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+@media (max-width:900px ) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .title{
+        font-size: 96px;
+    }
+
+    .portfolio{
+        font-size: 96px;
+    }
+    .nav{
+        background-color: #c4cad0;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    .contact {
+        font-size: 96px;
+    }
+
+}
+
+@media (max-width: 481px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .nav{
+        background-color: #c4cad0;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    .portfolio{
+        font-size: 48px;
+    }
+
+    .title{
+        font-size: 48px;
+    }
+    .contact{
+        font-size: 48px;
+    }
+}
